@@ -1,0 +1,5 @@
+Monthly_Savings = input("How much do you save monthly?")
+total_monthly_expenses = input("What are your total monthly expenses?")
+print("monthly_savings - total_monthly_expenses")
+Projected_Savings = Monthly_Savings * 12 + (Monthly_Savings * 12 * 0.05)
+print("Projected_Savings")
