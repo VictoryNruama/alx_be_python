@@ -20,4 +20,3 @@ class Book:
     def __repr__(self):
         """Return an official string representation that can recreate the object."""
         return f"Book('{self.title}', '{self.author}', {self.year})"
-
