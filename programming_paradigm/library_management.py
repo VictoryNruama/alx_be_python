@@ -13,14 +13,14 @@ class Book:
         if not self._is_checked_out:
             self._is_checked_out = True
             return True
-        return False  # already checked out
+        return False
 
     def return_book(self):
         """Mark the book as returned."""
         if self._is_checked_out:
             self._is_checked_out = False
             return True
-        return False  # book was not checked out
+        return False
 
     def is_available(self):
         """Return True if the book is available."""
@@ -28,4 +28,8 @@ class Book:
 
 
 class Library:
-    """A cla
+    """A class representing a library that manages books."""
+
+    def __init__(self):
+        """Initialize the Library with an empty list of books."""
+        self.
